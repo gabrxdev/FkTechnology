@@ -86,6 +86,7 @@ a {
   display: flex;
   align-items: center;
   gap: 0.4em;
+  position: relative;
 }
 a.router-link {
   transition: all ease-in 0.3s;
@@ -95,8 +96,8 @@ a:hover {
   color: #fff;
 }
 a.router-link-active {
-  background-color: #7d2ae8;
-  color: #fff;
+  color: #b187e8;
+  background-color: #252525;
 }
 h2 {
   color: #ccc;
